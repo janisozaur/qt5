@@ -12,4 +12,6 @@ jobs:
     - name: show git head
       run: git --no-pager show HEAD
     - name: install libs
-      run: build_qt.bat
+      run: |
+        ls -la
+        ./build_qt.bat
