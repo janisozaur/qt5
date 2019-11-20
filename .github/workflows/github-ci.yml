@@ -13,5 +13,5 @@ jobs:
       run: git --no-pager show HEAD
     - name: install libs
       run: |
-        ls -la
+        ls -l
         ./build_qt.bat
